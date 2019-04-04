@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type=" text / css"> h1{ color : Color Picker Background◯◯
+#208D69}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CHALLANGES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="challenges.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <style> h1{ background-color: #208D69;}
+            </style>
+
+
+    <h1>Day and Time</h1>
+    <button id="dayTime" onclick="dayTime()">Click</button>
+    <h1> GET URL</h1>
+    <button id="URL" onclick="getURL()">Click</button>
+    <h1>First Word</h1>
+    <button id="check" onclick="wordOne()">Click</button>
+    <h1>Largest Integers</h1>
+    <button id="larg number" onclick="myFunction()">Click</button>
+    <h1>Capitalize</h1>
+    <script>
+        str = prompt("enter sentence");
+        function capital_letter() {
+          var  str = prompt("enter sentence");
+            str = str.split(" ");      
+            for (var i = 0, x = str.length; i < x; i++) {
+                str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+            };
+            return str.join(" "); {
+                document.write(capital_letter()).innerHTML = str;
+            }
+
+        }
+
+        /*document.getElementById("demo").innerHTML=str;*/
+        /*document.write(capitalLetter()).innerHTML=str;*/
+        window.alert(capital_letter());
+
+    </script>
+    <p id="demo"></p>
+    <button id="Capitalize" onclick="capital_letter()">Click</button>
+    <h1>Convert to Time</h1>
+    <button id="time convert" onclick="time_convert()">Click</button>
+
+
+
+
+</body>
+
+</html>
